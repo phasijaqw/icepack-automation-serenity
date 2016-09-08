@@ -1,0 +1,108 @@
+<acceptance-test-run title="Verify Payment of Car insurance" name="Verify Payment of Car insurance" description="" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22870" timestamp="2016-06-06T15:24:22.514+10:00">
+  <user-story id="verify-car-insurance-payment" name="Verify Car Insurance Payment" path="ui/buy_car_insurance.feature"/>
+  <tags>
+    <tag name="Ui" type="capability"/>
+    <tag name="Ui/Verify car insurance payment" type="feature"/>
+    <tag name="Verify Car Insurance Payment" type="feature"/>
+    <tag name="Smoke" type="tag"/>
+  </tags>
+  <test-group name="Given I have access to  sydney heroku app" result="SUCCESS">
+    <screenshots>
+      <screenshot image="c53e12150df4d4bd8df18fd6498d07b5_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="9746">
+      <screenshots>
+        <screenshot image="c53e12150df4d4bd8df18fd6498d07b5_NONE.png"/>
+      </screenshots>
+      <description>Open home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click on get car quote link" result="SUCCESS">
+    <screenshots>
+      <screenshot image="92317f0f776084f9e5ffaf35abea6115_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1309">
+      <screenshots>
+        <screenshot image="92317f0f776084f9e5ffaf35abea6115_NONE.png"/>
+      </screenshots>
+      <description>Click on car quote link</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I enter quote request with following details:&#xa;| Audi | 2016 | 28 | female | New South Wales | priyanka.hassija@gmail.com |" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0b8782446ff5b168a5f1140e1582b1a6_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1755">
+      <screenshots>
+        <screenshot image="8af3895861116e80f068f750160cc255_NONE.png"/>
+      </screenshots>
+      <description>Enter car quote details: &lt;span class=&apos;step-parameter&apos;&gt;[Audi, 2016, 28, female, New South Wales, priyanka.hassija@gmail.com]&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I submit car quote details" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1ad367dd5eae1eb3ae315216e496295c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1434">
+      <screenshots>
+        <screenshot image="ba9edd6a808a4563bea8bf56160aad4e_NONE.png"/>
+      </screenshots>
+      <description>Submit car quote details</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I verify car details are correct:&#xa;| 28 | priyanka.hassija@gmail.com | Female | Audi | 2016 | New South Wales |" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1ad367dd5eae1eb3ae315216e496295c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="473">
+      <screenshots>
+        <screenshot image="1ad367dd5eae1eb3ae315216e496295c_NONE.png"/>
+      </screenshots>
+      <description>Verify car details are correct: &lt;span class=&apos;step-parameter&apos;&gt;[28, priyanka.hassija@gmail.com, Female, Audi, 2016, New South Wales]&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I check &apos;52.50&apos; dollar as monthly premium amount" result="SUCCESS">
+    <screenshots>
+      <screenshot image="1ad367dd5eae1eb3ae315216e496295c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="228">
+      <screenshots>
+        <screenshot image="1ad367dd5eae1eb3ae315216e496295c_NONE.png"/>
+      </screenshots>
+      <description>Check monthly car insurance premium: &lt;span class=&apos;step-parameter&apos;&gt;52, 50&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I buy car insurance" result="SUCCESS">
+    <screenshots>
+      <screenshot image="06312273ad2560990469a70cd908f8db_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1281">
+      <screenshots>
+        <screenshot image="87274eb6a796bd7b026d38860f04977f_NONE.png"/>
+      </screenshots>
+      <description>Buy car insurance</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I enter following details for insurance payment:&#xa;| priyanka | priyanka.hassija@gmail.com | priyanka | 5105105105105100 | July (07) | 2016 | 123 |" result="SUCCESS">
+    <screenshots>
+      <screenshot image="22e5057d572176b03de01466d9c4337a_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2347">
+      <screenshots>
+        <screenshot image="f1f71fd3097728b178e297c3b1f78dc0_NONE.png"/>
+      </screenshots>
+      <description>Enter details for insurance payment: &lt;span class=&apos;step-parameter&apos;&gt;[priyanka, priyanka.hassija@gmail.com, priyanka, 5105105105105100, July (07), 2016, 123]&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="And I pay for car insurance" result="SUCCESS">
+    <screenshots>
+      <screenshot image="4f925386f0e8968ae3c3b5ad03d4e811_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1335">
+      <screenshots>
+        <screenshot image="4f925386f0e8968ae3c3b5ad03d4e811_NONE.png"/>
+      </screenshots>
+      <description>Pay for car insurance</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
