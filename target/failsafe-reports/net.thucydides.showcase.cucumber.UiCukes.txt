@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: net.thucydides.showcase.cucumber.UiCukes
--------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.014 sec - in net.thucydides.showcase.cucumber.UiCukes
